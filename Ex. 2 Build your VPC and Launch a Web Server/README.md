@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: V MYTHILI
+* **Register Number**: 212223040123
+
 
 ---
 
@@ -99,19 +99,33 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+
+<img width="1920" height="954" alt="image" src="https://github.com/user-attachments/assets/11eafd06-ad1e-4a09-bfe9-3276bcd7671d" />
+
+
+
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/747fda96-9371-4e28-a92b-762264bac90b" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+
+
+<img width="1920" height="948" alt="image" src="https://github.com/user-attachments/assets/edab81e1-28c8-4510-9fc1-f4c38c7d37ac" />
+
+
+
+<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/0fe7827d-6228-4f4b-825e-83a24d275863" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+
+<img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/bc2edd5f-8dcf-4c15-b1c9-e73d5cde506d" />
+
 
 ---
 
