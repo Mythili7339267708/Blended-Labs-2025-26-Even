@@ -87,12 +87,11 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1.Opened the Amazon Web Services Management Console and created a custom VPC named lab-vpc with public and private subnets, route tables, an Internet Gateway, and a NAT Gateway.
+2.Added additional public and private subnets in a second Availability Zone and associated them with the correct route tables for internet connectivity.
+3.Created a security group named Web Security Group and configured an inbound HTTP rule to allow web traffic from anywhere.
+4.Launched an Amazon EC2 instance named Web Server 1 in the public subnet using the Amazon Linux AMI, selected the security group, and enabled auto-assign public IP.
+5.Added a user data script to install and start the Apache web server, then accessed the application using the instance’s public DNS to verify the website was running successfully.
 ---
 
 ## Output Screenshots (Attach 3)
