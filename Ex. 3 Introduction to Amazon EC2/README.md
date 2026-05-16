@@ -94,7 +94,7 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ---
 
-## Workflow (Student Explanation)
+## Workflow 
 
 1.Launch an Amazon Web Services EC2 instance named Web Server using Amazon Linux 2023, t2.micro, Lab VPC, and vockey key pair.
 
