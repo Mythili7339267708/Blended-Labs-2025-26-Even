@@ -96,17 +96,20 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Launch an Amazon Web Services EC2 instance named Web Server using Amazon Linux 2023, t2.micro, Lab VPC, and vockey key pair.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Enable termination protection and add User Data script to install and run the Apache web server automatically.
+
+3.Monitor the instance using Status Checks, Monitoring, System Logs, and Instance Screenshot after it reaches the Running state.
+
+4.Update the security group by allowing HTTP (Port 80) traffic from Anywhere-IPv4 and access the web page using the Public IPv4 address.
+
+5.Stop and resize the instance to t2.small, increase EBS storage from 8 GiB to 10 GiB, test stop protection, then stop the instance successfully.
+
 
 ---
 
-## Output Screenshots (Attach 3)
+## Output Screenshots 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
