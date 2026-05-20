@@ -83,11 +83,15 @@ Test the database server by connecting to it locally or remotely and performing 
 ## Workflow 
 
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Create a DB Security Group in VPC with MySQL/Aurora port 3306 allowed from Web Security Group.
+
+2.Create a DB Subnet Group using subnets from us-east-1a and us-east-1b in Lab VPC.
+
+3.Launch a MySQL Multi-AZ RDS instance named lab-db with username main and database lab.
+
+4.Wait until the RDS status becomes Available, then copy the Endpoint from Connectivity & Security.
+
+5.Open the WebServer IP, go to the RDS page, enter the endpoint and database credentials, then test the Address Book application.
 
 ---
 
@@ -103,13 +107,15 @@ Test the database server by connecting to it locally or remotely and performing 
 
 <img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/be9c9c65-1d64-4928-9371-6c7ce963923a" />
 
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/c75f9a54-1f8a-4dbe-9651-d11f60512038" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/898e5d25-cb34-4da6-8efe-ad324fd90e78" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/ba1be8b4-987b-494b-9de0-a1eedd9dceac" />
+
+<img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/0456f8aa-e319-4e0a-864d-2a822df44276" />
 
 ---
 
