@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: V MYTHILI
+* **Register Number**: 212223040123
+
 
 ---
 
@@ -80,9 +80,8 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ---
 
-## Workflow (Student Explanation)
+## Workflow 
 
-(Write the steps you followed in your own words)
 
 1. ---
 2. ---
@@ -92,17 +91,19 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ---
 
-## Output Screenshots (Attach 3)
+## Output Screenshots 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="953" alt="image" src="https://github.com/user-attachments/assets/427babc6-f807-4656-b1fe-d242a249bd54" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/be9c9c65-1d64-4928-9371-6c7ce963923a" />
+
+<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/c75f9a54-1f8a-4dbe-9651-d11f60512038" />
 
 ---
 
