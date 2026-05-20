@@ -1,9 +1,10 @@
 # Lab 6 – Scale and Load Balance Your Architecture
 
-## Title
+## Title Scale and Load Balance Your Architecture
 
-Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+
+Author : V MYTHILI   
+Reg no : 212223040123
 
 ---
 
@@ -64,14 +65,63 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ---
 
-## Workflow (To be filled by Student)
+## Workflow 
 
-Describe step-by-step how you performed this experiment in your own words.
+1.Create an AMI named WebServerAMI from Web Server 1 after the instance status becomes 2/2 checks passed.
+
+2.Create a Target Group (LabGroup) and an Application Load Balancer (LabELB) using Lab VPC, Public Subnets, and Web Security Group.
+
+3.Create a Launch Template (LabConfig) using the AMI, then create an Auto Scaling Group with:
+   Desired: 2
+   Min: 2
+   Max: 6
+   CPU target tracking: 60%
+
+4.Verify load balancing by checking that two Lab Instance targets become healthy, then open the Load Balancer DNS name in a browser.
+
+5.Test Auto Scaling using Load Test in the web app, confirm new instances launch automatically, then terminate Web Server 1 and submit the lab.
 
 ---
 
 ## Output Screenshots 
 
+### Screenshot-1: Creating an AMI for Auto Scaling
+
+<img width="1920" height="954" alt="image" src="https://github.com/user-attachments/assets/9475e751-ca74-4f20-9dcf-92db98b0f55d" />
+
+
+### Screenshot-2: Creating a Load Balancer
+
+<img width="1920" height="952" alt="image" src="https://github.com/user-attachments/assets/3480054e-9a8d-45ac-b801-344c98e6e4a7" />
+
+
+<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/ecd71bf9-2e8a-4e84-a4d0-97deee65378a" />
+
+
+### Screenshot-3: Creating a Launch Template and an Auto Scaling Group
+
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/c0cf7da9-4352-4714-ae2b-c348d8200146" />
+
+<img width="1920" height="952" alt="image" src="https://github.com/user-attachments/assets/37ad2714-7fc6-4f3b-9ba0-351eae5f4d65" />
+
+
+### Screenshot-4: Testing Auto Scaling
+
+
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/25f001ff-ddf7-4c35-abe6-2ab7a0b23fa1" />
+
+
+<img width="1920" height="562" alt="image" src="https://github.com/user-attachments/assets/f79b6770-2d2d-4581-b17b-b74f8b4af6c9" />
+
+<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/a59eb739-b2fb-4d5a-a486-3bc36ecd4591" />
+
+
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/a326b024-e417-429f-b8dc-d8daac111150" />
+
+
+### Screenshot-5: Terminating Web Server 1
+
+<img width="1920" height="953" alt="image" src="https://github.com/user-attachments/assets/5a5a27ea-7ff8-402c-917b-d07be964f4a0" />
 
 ---
 
